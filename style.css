@@ -53,12 +53,14 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 80px
+    height: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 hr {
-    border-color: hsl(0, 0%, 59%) 1px;
-    opacity: 0.3;
+    border-color: hsla(0, 0%, 59%, 0.1);
+    
 }
 
 .attribution {
@@ -68,6 +70,7 @@ hr {
     font-size: 11px;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
+    color:hsl(229, 23%, 23%);
 }
 
 .attribution a:link, .attribution a:visited, .attribution a:active {
