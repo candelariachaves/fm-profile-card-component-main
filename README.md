@@ -1,7 +1,7 @@
 # Profile card component
 
 ## Live view
-...coming soon
+Live view: [https://fm-profile-card-component-main.vercel.app/](https://fm-profile-card-component-main.vercel.app/)
 
 ## Design preview
 >Desktop preview
