@@ -21,21 +21,30 @@ body {
 .card {
     background-color: white;
     border-radius: 1em;
+    position: relative;
+}
+
+
+.profile-pic {
+    position: absolute;
+    top: 87px;
+    width: 100%;
 }
 
 .profile-pic img{
-    position: absolute;
-    top: 50px;
     border-radius: 50%;
     border: solid 5px white;
-    display: none;
 }
+
+.content {
+    padding-top: 50px;
+}
+
+
 
 .header img {
     border-radius: 1em 1em 0 0;
 }
-
-
 
 .stats {
     display: flex;
@@ -44,12 +53,11 @@ body {
 }
 
 
+
 hr {
     border-color: hsl(0, 0%, 59%) 1px;
     opacity: 0.5;
 }
-
-
 
 /*fonts*/
 h1 {
